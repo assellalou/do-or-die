@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    color: #eee;
+    background: url('./../img/art-black-and-white-body-1544526.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*::selection{
+    background: #fff;
+    color: #000;
+}
+a{
+    color: rgb(195, 0, 255);
+    text-decoration: none;
+}
+.container{
+    background: rgb(34, 34, 34);
+    width: 500px;
+    margin: auto;
+    height: 700px;
+    border-radius: 5px;
+    opacity: 0.8;
+    box-shadow: 0px 1px 10px rgb(34, 34, 34);
+}
+.heading {
+    background: rgb(65, 65, 65);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    align-self: center;
+    color: rgb(238, 246, 123);
+}
+.new, .done{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(174, 21, 235);
+    border: 1px solid rgb(77, 6, 105);
+}
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+ .fa, .fas{
+    color: #fff;
+} 
+p{text-align: center}
+
+.newone{
+    padding: 25px;
+    display: flex;flex-direction: column;
+    background: #eee;
+}
+input{
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(32, 121, 204);
+    margin: 10px;
+    outline: none;
+    color: rgb(31, 31, 31);
+}
+button{
+    background: rgb(32, 121, 204);
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+
+}
+.fork{
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
